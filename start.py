@@ -11,7 +11,9 @@ def _test():
     from python_100case import testCase
 
     case = testCase.case()
-    case.case_001(num2=9, num1=2, num4=3, num3=4)
+    #case.case_002("sfd")
+    #case.case_004(2018, 9, 24)
+    case.case_005(1, 2, 3)
 
 
 if __name__ == '__main__':

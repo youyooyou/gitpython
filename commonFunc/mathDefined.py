@@ -28,3 +28,8 @@ def awIsInt(num):
     if isinstance(num, int):
         return True
     return False
+
+def awSort(digitList):
+    if not isinstance(digitList, list):
+        raise "输入参数为list，请以list作为入参输入。"
+    return digitList.sort()
