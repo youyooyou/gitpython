@@ -106,3 +106,24 @@ class case():
             return result
         else:
             self.case_006(n - 1) + self.case_006(n - 2)
+
+    def case_007(self, alist):
+        '''
+        :param alist:
+        :return:
+        '''
+        return alist[:]
+
+    def case_008(self):
+        '''
+        :return:
+        '''
+        index = 1
+        while True:
+            for i in range(1, 10):
+                print("\t%d x %d", i, index)
+                if i == index:
+                    index += 1
+                    break
+            if index == 10:
+                break
